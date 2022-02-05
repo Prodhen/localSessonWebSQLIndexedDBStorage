@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+aside, footer, header, hgroup, nav {
+    display: block;
+}
+
+body {
+    /* color: #776E65; */
+    padding: 10px;
+    background-color: purple;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+header {
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+#headerText {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+div[role="main"] {
+    float: left;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+#editContact {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #E1E1E1;
+    width: 400px;
+    margin-top: 20px;
+}
+
+#editContact h2 {
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 200px;
+}
+
+#editContact div {
+    width: 350px;
+    padding: 10px;
+}
+
+#editContact div.buttons {
+    text-align: center;
+    
+}
+
+#editContact label {
+    width: 150px;
+    height: 12px;
+    vertical-align: bottom;
+    clear: left;
+    display: block;
+    float:left;
+    font-weight: bold;
+    
+}
+#editContact .gender #male{
+   margin-left:5px;
+
+}
+#editContact .gender label{
+    margin-right:-3px;
+ 
+ }
+
+#editContact input[type=text],[type=email]{
+    width: 150px;
+    padding: 2px;
+}
+.buttons {
+    width: 5px;
+    margin-top: -15px;
+   
+    color: white;
+} 
+
+button {
+    width: 100px;
+    margin-top: 5px;
+    background-color:purple;
+    color: white;
+}
+
+#contacts {
+    width: 600px;
+    border: 1px solid #E1E1E1;
+    margin: 0px;
+    padding: 0px;
+    background-color: springgreen;
+}
+
+#contacts thead {
+    background-color: #e1e1e1;
+    color: #7C756D;
+    font-weight: bold;
+    text-align: left;
+}
+
+#contacts tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+#contacts th {
+    border-color: #7C756D;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+}
+
+#contacts th, #contacts td {
+    margin: 0px;
+    padding: 5px 10px;
+}
+#contacts th {
+    text-align: center;
+
+}
+#currentAction{
+    
+    margin-left: 70px;
+
+}
+input[type=text]:focus, input[type=phone]:focus, input[type=email]:focus{
+    background-color:yellow;
+    outline:none;
+    }
+::placeholder{
+    color:gray;
+}
